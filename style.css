@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", sans-serif;
+  
+}
+
+  
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+#card{
+    border: 2px solid rgb(51, 248, 251);
+    box-shadow: 5px 5px 10px rgb(61, 254, 254);
+    height: 400px;
+    width: 300px;
+    border-radius:10px ;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card img:hover{
+    border: 2px solid rgb(47, 255, 255);
+}
+
+#card h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#card h5{
+    font-size: 25px;
+    color: red;
+    margin: 20px;
+}
+
+#card button{
+    background-color:cadetblue;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#card #remove{
+    background-color: #dadada;
+    color: black;
+    
+}
+#card #remove:hover{
+    background-color: black;
+    color: #fff;
+}
+#card #add:hover{
+    background-color: rgb(36, 235, 59);
+    color: #fff;
+}
